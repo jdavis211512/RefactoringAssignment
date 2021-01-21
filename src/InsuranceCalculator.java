@@ -1,6 +1,6 @@
 public class InsuranceCalculator {
 
-    public double calculateInsurance(double income) {
+    public static double calculateInsurance(double income) {
         if (income <= 10000) {
             return income*0.365;
         } else if (income <= 30000) {
